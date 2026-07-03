@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Battery Monitor — Stay Charged. Stay Aware.</title>
+  <meta name="description" content="Get custom battery alerts at 50%, 20%, and 10% before your phone dies. Battery Monitor warns you early with unique alarm sounds — free on iPhone and Android." />
+  <meta name="keywords" content="battery monitor, battery alert, low battery warning, battery level tracker, battery health, charge reminder" />
+  <link rel="canonical" href="https://pcristo.dev/battery-monitor/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pcristo.dev/battery-monitor/" />
+  <meta property="og:title" content="Battery Monitor — Stay Charged. Stay Aware." />
+  <meta property="og:description" content="Get custom battery alerts at 50%, 20%, and 10% before your phone dies. Free on iPhone and Android." />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Battery Monitor — Stay Charged. Stay Aware." />
+  <meta name="twitter:description" content="Get custom battery alerts at 50%, 20%, and 10% before your phone dies. Free on iPhone and Android." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-ambient" aria-hidden="true">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="glow glow-3"></div>
+  </div>
+
+  <header class="topbar">
+    <a href="#" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="14" height="11" rx="2" stroke="currentColor" stroke-width="2"/><line x1="6" y1="11" x2="6" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </span>
+      <span class="logo-text">Battery Monitor</span>
+    </a>
+    <a class="nav-link" href="#download">Get the app</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <span class="badge">🔋 Free for iPhone &amp; Android</span>
+        <h1>Plug your battery,<br><em>before</em> it's too late.</h1>
+        <p class="subhead">
+          Your phone won't warn you until it's too late. Battery Monitor gives you three custom alerts — at 50%, 20%, and 10% — with distinct alarm sounds so you always know exactly where you stand.
+          <br/>Three intelligent alerts & Three distinct sounds (all customizable). <br/>Battery Monitor is the only app that makes sure you
+          never stare at 1% again.
+        </p>
+        <div class="threshold-row">
+          <div class="thresh thresh-safe">
+            <span class="thresh-pct">50%</span>
+            <span class="thresh-label">Heads-up tone</span>
+          </div>
+          <div class="thresh-sep" aria-hidden="true">→</div>
+          <div class="thresh thresh-warn">
+            <span class="thresh-pct">20%</span>
+            <span class="thresh-label">Warning double-beep</span>
+          </div>
+          <div class="thresh-sep" aria-hidden="true">→</div>
+          <div class="thresh thresh-critical">
+            <span class="thresh-pct">10%</span>
+            <span class="thresh-label">Urgent alarm</span>
+          </div>
+        </div>
+        <div class="cta-row" id="download">
+          <a class="btn btn-dark" href="https://apps.apple.com/us/app/battery-monitor-pal/id6785798331" target="_blank" rel="noreferrer noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            Download for iOS
+          </a>
+          <a class="btn btn-outline" href="#" target="_blank" rel="noreferrer noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.523 2.264c-.454.5-2.01 1.74-2.01 4.87 0 3.62 3.18 4.88 3.22 4.88-.02.11-.5 1.72-1.65 3.4-1 1.47-2.04 2.93-3.67 2.93-1.6 0-2.1-.95-3.92-.95-1.84 0-2.42.97-3.94.97-1.58 0-2.66-1.57-3.63-3.04-.98-1.5-1.88-4.12-1.88-6.55 0-3.9 2.54-5.96 5.03-5.96 1.33 0 2.43.87 3.26.87.8 0 2.05-1.01 3.48-1.01.59 0 2.7.05 3.9 2.07z"/></svg>
+            Get it on Android
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <!-- Terminal console -->
+        <div class="hero-terminal" aria-hidden="true">
+          <div class="term-header">
+            <span class="term-dot term-dot-red"></span>
+            <span class="term-dot term-dot-yellow"></span>
+            <span class="term-dot term-dot-green"></span>
+            <span class="term-title">battery_monitor — status</span>
+          </div>
+          <div class="term-body">
+            <p><span class="term-prompt">$</span> battery --status</p>
+            <p class="term-line">LEVEL: <span class="term-green">78%</span> <span class="term-dim">| STATE: DISCHARGING</span></p>
+            <p class="term-line">WARNING_THRESHOLDS: [50%] [20%] [10%]</p>
+            <p class="term-line">ALERT_50: <span class="term-dim">NOT TRIGGERED</span></p>
+            <p class="term-line">ALERT_20: <span class="term-dim">NOT TRIGGERED</span></p>
+            <p class="term-line">ALERT_10: <span class="term-dim">NOT TRIGGERED</span></p>
+            <p class="term-status">STATUS: <span class="term-blink">● NOMINAL</span></p>
+          </div>
+        </div>
+
+        <!-- Battery graphic -->
+        <div class="battery-preview" aria-hidden="true">
+          <div class="battery-shell">
+            <div class="battery-cap"></div>
+            <div class="battery-body">
+              <div class="battery-fill"></div>
+              <div class="battery-pulse-ring"></div>
+            </div>
+          </div>
+          <div class="battery-label">
+            <span class="battery-pct">78%</span>
+            <span class="battery-state">Discharging</span>
+          </div>
+          <div class="battery-indicators">
+            <span class="ind ind-done"><span></span>50%</span>
+            <span class="ind ind-active"><span></span>20%</span>
+            <span class="ind ind-pending"><span></span>10%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2 class="section-title">Designed for awareness</h2>
+      <div class="features-grid">
+        <article class="feature">
+          <div class="feature-num">01</div>
+          <h3>Three-stage alert system</h3>
+          <p>Gentle nudge at 50%. Firmer warning at 20%. Urgent alarm at 10%. Each with a distinct sound so you know severity without looking.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-num">02</div>
+          <h3>Animated battery visual</h3>
+          <p>A live, breathing battery display that shifts from green to yellow to red. See your charge state at a glance.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-num">03</div>
+          <h3>Intelligent cycle reset</h3>
+          <p>Each threshold fires only once per discharge. Plug in and everything resets — no notification spam.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-num">04</div>
+          <h3>Minimal battery impact</h3>
+          <p>Built with efficiency in mind. Battery Monitor itself uses negligible power while keeping watch.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="premium">
+      <div class="premium-wrap">
+        <div class="premium-text">
+          <span class="premium-chip">Battery Monitor Premium</span>
+          <h2>Make it yours</h2>
+          <p>Set any threshold percentage. Choose your own alert sounds. Remove ads. One purchase, yours forever.</p>
+          <p class="premium-note">Available as an in-app purchase.</p>
+        </div>
+        <div class="premium-visual" aria-hidden="true">
+          <div class="slider-visual">
+            <span class="slider-label">Custom threshold</span>
+            <div class="slider-track">
+              <div class="slider-fill" style="width:65%"></div>
+              <div class="slider-thumb" style="left:65%">65%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-brand">Battery Monitor</p>
+      <nav>
+        <a href="./terms.html">Terms of Service</a>
+        <span class="foot-dot">·</span>
+        <a href="./privacy.html">Privacy Policy</a>
+        <span class="foot-dot">·</span>
+        <a href="mailto:paulocristo@me.com">Contact</a>
+      </nav>
+      <p class="footer-copy">© 2026 Paulo Cristo</p>
+    </div>
+  </footer>
+</body>
+</html>
